@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram id="h4xZk8FJ1fPCxNU34Bpf" name="ページ1">
+    <mxGraphModel dx="637" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3" value="学生" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-3" value="メニュー画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-4" value="表示（する）" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-5" value="学生登録画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.499;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mKaHwS6JB3V9px6yI_Tr-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="190" as="sourcePoint" />
+            <mxPoint x="250" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-9" value="①メニュー画面&lt;div&gt;をクリックする&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.286;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.984;exitY=0.49;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mKaHwS6JB3V9px6yI_Tr-3" target="mKaHwS6JB3V9px6yI_Tr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="230" as="sourcePoint" />
+            <mxPoint x="219" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.918;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.094;exitY=0.869;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mKaHwS6JB3V9px6yI_Tr-4" target="mKaHwS6JB3V9px6yI_Tr-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="220" as="sourcePoint" />
+            <mxPoint x="339" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.007;entryY=0.499;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mKaHwS6JB3V9px6yI_Tr-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="220" as="sourcePoint" />
+            <mxPoint x="299" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.499;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.97;exitY=0.712;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mKaHwS6JB3V9px6yI_Tr-5" target="mKaHwS6JB3V9px6yI_Tr-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="400" as="sourcePoint" />
+            <mxPoint x="399" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-14" value="学生情報登録" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="300" width="86" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-15" value="学生オブジェクト（データ）" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.011;entryY=0.641;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" target="mKaHwS6JB3V9px6yI_Tr-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="447" y="351" as="sourcePoint" />
+            <mxPoint x="480" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-17" value="・登録の成功、失敗&lt;div&gt;・すでに存在する学生かもしれない&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-18" value="①境界オブジェクト&lt;div&gt;②制御オブジェクト&lt;/div&gt;&lt;div&gt;③実態オブジェクト&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="55" y="363" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mKaHwS6JB3V9px6yI_Tr-19" value="②学生情報を&lt;div&gt;入力する&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
